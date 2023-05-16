@@ -21,11 +21,12 @@
     <link rel="icon" type="image/x-icon" href="assets\img\favicon\favicon.ico">
 </head>
 <body>
+
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a href = "#top"><img src="assets\img\head-logo.png" alt="" width="150" height="150" class="d-inline-block align-text-top"></a>
-            <a class="navbar-brand" href="#top">Technologies</a>
+            <a href = "index.html"><img src="assets\img\head-logo.png" alt="" width="150" height="150" class="d-inline-block align-text-top"></a>
+            <a class="navbar-brand" href="index.html">Technologies</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
@@ -45,54 +46,35 @@
         </div>
     </nav>
 
-    <!-- Masthead-->
-    <header class="masthead" id="top">
-        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-            <div class="d-flex justify-content-center">
-                <div class="text-center">
-                    <video autoplay muted>
-                        <source src="assets\img\ignition_black_launch.mp4" type="video/mp4">
-                        Your browser doesn't support a video.
-                    </video>
-                </div>
-            </div>
-        </div>
-    </header>
+    <br><br><br><br>
 
-    <!-- About-->
-    <section class="about-section text-center" id="about">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8">
-                    <h2 class="text-white mb-4"><br><br>About Us</h2>
-                    <p class="text-white-50">
-                        We are a passionate group of students from VIT Chennai who came together in March 2023 to form a college rocketry team. As first-year students from various engineering disciplines, we share a common interest in space technology and the thrill of exploring the final frontier. Our mission is to develop and manufacture model rockets that can be launched and operated efficiently. We believe in the power of collaboration and teamwork, which is why we bring together students from all engineering disciplines to contribute their unique skills and perspectives to our projects. We are dedicated to pushing the boundaries of what is possible in space tech, and we can't wait to see what we will achieve together.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="contact-section text-center">
 
-    <!--Mission-->
-    <section class="about-section text-center" id="mission">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8">
-                    <h2 class="text-white mb-4"><br><br><br>Mission</h2>
-                    <p class="text-white-50">
-                        We plan on participating in the <a href = "https://www.lasc.space/" target = "_blank">Latin American Space Challenge 2024</a> under the following categorires:
-                        <ol>
-                            <li>0.5 km category</li>
-                            <li>3 km category</li>
-                            <li>CanSAT competition</li>
-                        </ol>
-                    </p>
-                    <br><br>
+        <form enctype="text/plain" action="mailto:www.ignitiontechnologies@gmail.com" method="post">
+            <div class="container">
+                <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <input type="email" class="form-control" name="Email Address" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
+                <br>
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="text" class="form-control" name="Name" placeholder="Enter Name">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <input type="text" class="form-control" name="Message" placeholder="Enter Message">
+                </div>
+                <br><br>
+                <button type="submit" class="btn btn-primary" target="_blank">Submit</button>
             </div>
+        </form>
+
+        <br><br><br>
         </div>
     </section>
-
 
      <!-- Footer-->
      <footer class="footer bg-black small text-center text-white-50">

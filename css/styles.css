@@ -11248,3 +11248,23 @@ img {
   border-radius: 50%;
   padding-left: 25px;
 }
+
+input[type=email] {
+  background-color: black;
+  color: white;
+}
+
+input[type=email]:focus {
+  background-color: black;
+  color: white;
+}
+
+input[type=text] {
+  background-color: black;
+  color: white;
+}
+
+input[type=text]:focus {
+  background-color: black;
+  color: white;
+}
