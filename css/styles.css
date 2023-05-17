@@ -11268,3 +11268,16 @@ input[type=text]:focus {
   background-color: black;
   color: white;
 }
+
+table {
+  height: auto;
+  width: auto;
+}
+
+td {
+  padding: 25px;
+}
+
+div.sub-divs {
+  text-indent: 10px;
+}
