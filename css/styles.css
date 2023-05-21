@@ -11080,7 +11080,7 @@ body {
 
 .masthead {
   position: relative;
-  width: 100%;
+  width: auto;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
@@ -11244,9 +11244,9 @@ video {
   height: auto;
 }
 
-img {
+img.team{
   border-radius: 50%;
-  padding-left: 25px;
+  border: 10px solid transparent;
 }
 
 input[type=email] {
